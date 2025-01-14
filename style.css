@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background: #101220;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.btn {
+    width: 175px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    background: inherit;
+    border: none;
+    transition: 0.2s;
+}
+
+.btn1 {
+    width: 175px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    background: inherit;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #BFAFF2;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #BFAFF2;
+    color: white;
+}
+
+select {
+    border: none;
+    background: inherit;
+    color: white;
+}
+
+option {
+    background-color: black;
+    color: white;
+    width: 99px;
+    height: 111px;
+    top: 53px;
+    left: 312px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+}
+
+
+
+.df {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.df h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.section1-hero {
+    padding-top: 350px;
+}
+
+.card-bola {
+    width: 325px;
+    height: 240px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+    background: #232028;
+    position: relative;
+}
+
+.card-img {
+    position: absolute;
+    top: -300px;
+}
+
+.ota1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.card-bola h2 {
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+    color: white;
+}
+
+.card-bola p {
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background: #0C0E1866;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
